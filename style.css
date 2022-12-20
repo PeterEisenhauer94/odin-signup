@@ -27,6 +27,7 @@ html, body {
 
 #form{
     display: flex;
+    gap: 20px;
 }
 
 #form-column-one, #form-column-two{
@@ -35,4 +36,46 @@ html, body {
 .form-element{
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+#description-zone, #button-zone{
+    display: flex;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:beige;
+}
+
+#form-zone{
+    display:flex;
+    flex-direction: row;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#button-zone button{
+    position: relative;
+    bottom: 100px;
+    
+}
+
+#text-background{
+    position: relative;
+    top: 20vh;
+    background-color:black;
+    opacity: 40%;
+    height:20vh;
+    width:40vw
+}
+
+#hero{
+    position: relative;
+    color: White;
+    text-align: center;
+    font-size: 48px;
+    
 }
