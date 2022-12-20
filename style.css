@@ -3,3 +3,36 @@
 :root{
     font-family: 'Barlow', sans-serif;
 }
+
+html, body {
+    margin: 0;
+}
+
+#content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#graphic-section{
+    width: 40vw;
+    height: 100vh;
+    background-image: url(./assets/wesley-tingey-9-OCsKoyQlk-unsplash.jpg);
+}
+
+#form-section{
+    width: 60vw;
+    height: 100vh;
+}
+
+#form{
+    display: flex;
+}
+
+#form-column-one, #form-column-two{
+    flex-direction: column;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+}
